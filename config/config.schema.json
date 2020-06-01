@@ -1,0 +1,60 @@
+{
+  "env": {
+    "default": "dev",
+    "env": "ENV"
+  },
+  "maxValue": {
+    "default": 1,
+    "format": "Number"
+  },
+  "minValue": {
+    "default": -1,
+    "format": "Number"
+  },
+  "paramNum": {
+    "default": 20,
+    "format": "Number"
+  },
+  "port": {
+    "default": 3000,
+    "format": "Number"
+  },
+  "host": {
+    "default": "localhost",
+    "format": "String"
+  },
+  "logger": {
+    "name": {
+      "default": "test",
+      "format": "String"
+    },
+    "level": {
+      "default": "debug",
+      "format": "String"
+    }
+  },
+  "connections": {
+    "db": {
+      "host": {
+        "default": "localhost",
+        "format": "String"
+      },
+      "database": {
+        "default": "test",
+        "format": "String"
+      },
+      "username": {
+        "default": "test-user",
+        "format": "String"
+      },
+      "password": {
+        "default": "password",
+        "format": "String"
+      },
+      "dialect": {
+        "default": "mysql",
+        "format": "String"
+      }
+    }
+  }
+}
