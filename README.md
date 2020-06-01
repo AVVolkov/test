@@ -18,6 +18,7 @@ Minimal example:
 4) run app: ENV=prod node app.js / node app.js
 5) open ./messageGenerator.js and check cfg block
 6) run messageGenerator: node messageGenerator.js
+7) Open browser (by default: http://localhost:3000)
 
 
 # TODO
