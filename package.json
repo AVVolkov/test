@@ -1,0 +1,31 @@
+{
+  "name": "test-app",
+  "version": "0.0.1",
+  "description": "Test application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-msg": "node message-generator.js"
+  },
+  "author": "volkoff",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "bunyan": "^1.8.12",
+    "bunyan-pretty-colors": "^0.1.7",
+    "celebrate": "^12.1.1",
+    "convict": "^6.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "mustache-express": "^1.3.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.11",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
